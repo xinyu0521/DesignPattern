@@ -19,6 +19,7 @@
 		AF45B7CB2734D78F001C740E /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF45B7CA2734D78F001C740E /* Singleton.swift */; };
 		AF45B7CD27351AB8001C740E /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF45B7CC27351AB8001C740E /* Factory.swift */; };
 		AFB209542738B0340075D7EB /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB209532738B0340075D7EB /* Builder.swift */; };
+		AFB20960273A4AF80075D7EB /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB2095F273A4AF80075D7EB /* Prototype.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		AF45B7CA2734D78F001C740E /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		AF45B7CC27351AB8001C740E /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		AFB209532738B0340075D7EB /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		AFB2095F273A4AF80075D7EB /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				AF45B7CA2734D78F001C740E /* Singleton.swift */,
 				AF45B7CC27351AB8001C740E /* Factory.swift */,
 				AFB209532738B0340075D7EB /* Builder.swift */,
+				AFB2095F273A4AF80075D7EB /* Prototype.swift */,
 			);
 			path = "创建型";
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			files = (
 				AF45B79E2734D571001C740E /* ViewController.swift in Sources */,
 				AF45B7CB2734D78F001C740E /* Singleton.swift in Sources */,
+				AFB20960273A4AF80075D7EB /* Prototype.swift in Sources */,
 				AF45B79A2734D571001C740E /* AppDelegate.swift in Sources */,
 				AF45B79C2734D571001C740E /* SceneDelegate.swift in Sources */,
 				AF45B7CD27351AB8001C740E /* Factory.swift in Sources */,
