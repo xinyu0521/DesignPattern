@@ -27,16 +27,19 @@ class CarBuilder {
 
     init() {}
 
-    func setMachine(machine: String) {
+    func setMachine(machine: String) -> CarBuilder {
         self.machine = machine
+        return self
     }
 
-    func setNumOfWheel(num: Int) {
+    func setNumOfWheel(num: Int) -> CarBuilder {
         self.numOfWheel = num
+        return self
     }
 
-    func setNumOfDoor(num: Int) {
+    func setNumOfDoor(num: Int) -> CarBuilder {
         self.numOfDoor = num
+        return self
     }
 
     func build() -> Car {
@@ -46,10 +49,11 @@ class CarBuilder {
 }
 
 func use() {
-    let bulider = CarBuilder()
-    bulider.setMachine(machine: "V8")
-    bulider.setNumOfDoor(num: 4)
-    bulider.setNumOfWheel(num: 4)
-    let car = bulider.build()
+    let car = CarBuilder()
+        .setMachine(machine: "V8")
+        .setNumOfDoor(num: 4)
+        .setNumOfWheel(num: 4)
+        .build()
+
     print(car)
 }
