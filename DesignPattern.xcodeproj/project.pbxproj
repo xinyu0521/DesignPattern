@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		449D0B3827489EFE0089F25A /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D0B3727489EFE0089F25A /* Facade.swift */; };
+		449D0B3A2748AA190089F25A /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D0B392748AA180089F25A /* Composite.swift */; };
+		449D0B3C274A15330089F25A /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D0B3B274A15330089F25A /* Flyweight.swift */; };
+		449D0B41274A60010089F25A /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D0B40274A60010089F25A /* Observer.swift */; };
+		449D0B43274A6C090089F25A /* TemplateMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449D0B42274A6C090089F25A /* TemplateMethod.swift */; };
 		AF45B79A2734D571001C740E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF45B7992734D571001C740E /* AppDelegate.swift */; };
 		AF45B79C2734D571001C740E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF45B79B2734D571001C740E /* SceneDelegate.swift */; };
 		AF45B79E2734D571001C740E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF45B79D2734D571001C740E /* ViewController.swift */; };
@@ -44,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		449D0B3727489EFE0089F25A /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		449D0B392748AA180089F25A /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		449D0B3B274A15330089F25A /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
+		449D0B40274A60010089F25A /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		449D0B42274A6C090089F25A /* TemplateMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethod.swift; sourceTree = "<group>"; };
 		AF45B7962734D571001C740E /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF45B7992734D571001C740E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF45B79B2734D571001C740E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		449D0B3F274A60010089F25A /* 行为型 */ = {
+			isa = PBXGroup;
+			children = (
+				449D0B40274A60010089F25A /* Observer.swift */,
+				449D0B42274A6C090089F25A /* TemplateMethod.swift */,
+			);
+			path = "行为型";
+			sourceTree = "<group>";
+		};
 		AF45B78D2734D571001C740E = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +136,7 @@
 			children = (
 				AF45B7C92734D5CE001C740E /* 创建型 */,
 				AFB2094F273807D00075D7EB /* 结构型 */,
-				AFB20950273807E10075D7EB /* 行为型 */,
+				449D0B3F274A60010089F25A /* 行为型 */,
 				AF45B7992734D571001C740E /* AppDelegate.swift */,
 				AF45B79B2734D571001C740E /* SceneDelegate.swift */,
 				AF45B79D2734D571001C740E /* ViewController.swift */,
@@ -164,15 +183,11 @@
 				AFE7A95227473F74000ECC30 /* Bridge.swift */,
 				AFE7A95427477806000ECC30 /* Decorator.swift */,
 				AFE7A956274791C2000ECC30 /* Adapter.swift */,
+				449D0B3727489EFE0089F25A /* Facade.swift */,
+				449D0B392748AA180089F25A /* Composite.swift */,
+				449D0B3B274A15330089F25A /* Flyweight.swift */,
 			);
 			path = "结构型";
-			sourceTree = "<group>";
-		};
-		AFB20950273807E10075D7EB /* 行为型 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "行为型";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,13 +322,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE7A9512745FECE000ECC30 /* Proxy.swift in Sources */,
+				449D0B41274A60010089F25A /* Observer.swift in Sources */,
 				AFE7A95527477806000ECC30 /* Decorator.swift in Sources */,
 				AF45B79E2734D571001C740E /* ViewController.swift in Sources */,
+				449D0B3C274A15330089F25A /* Flyweight.swift in Sources */,
+				449D0B3827489EFE0089F25A /* Facade.swift in Sources */,
 				AF45B7CB2734D78F001C740E /* Singleton.swift in Sources */,
 				AFB20960273A4AF80075D7EB /* Prototype.swift in Sources */,
+				449D0B3A2748AA190089F25A /* Composite.swift in Sources */,
 				AF45B79A2734D571001C740E /* AppDelegate.swift in Sources */,
 				AFE7A957274791C2000ECC30 /* Adapter.swift in Sources */,
 				AFE7A95327473F74000ECC30 /* Bridge.swift in Sources */,
+				449D0B43274A6C090089F25A /* TemplateMethod.swift in Sources */,
 				AF45B79C2734D571001C740E /* SceneDelegate.swift in Sources */,
 				AF45B7CD27351AB8001C740E /* Factory.swift in Sources */,
 				AFB209542738B0340075D7EB /* Builder.swift in Sources */,
