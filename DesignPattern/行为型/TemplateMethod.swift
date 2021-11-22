@@ -16,9 +16,9 @@ protocol AbstractClass {
 
 extension AbstractClass {
     func templateMethod() {
-        //...
+        // ...
         method1()
-        //...
+        // ...
         method2()
     }
 }
@@ -27,10 +27,10 @@ class ConcreteClass: AbstractClass {
     func method1() {
         print("method1")
     }
-    
+
     func method2() {
         print("method2")
     }
 }
 
-//ConcreteClass().templateMethod()
+// ConcreteClass().templateMethod()

@@ -9,21 +9,13 @@
 /// 门面模式为子系统提供一组统一的接口，定义一组高层接口让子系统更易用。
 
 class Facade {
-    func f1(){
-        
-    }
+    func f1() {}
     
-    func f2(){
-        
-    }
+    func f2() {}
     
-    func f3(){
-        
-    }
+    func f3() {}
     
-    func f4(){
-        
-    }
+    func f4() {}
     
     func facade() {
         f1()
@@ -33,7 +25,6 @@ class Facade {
 }
 
 func useFacade() {
-    
     let facade = Facade()
     
 //    facade.f1()
@@ -42,4 +33,3 @@ func useFacade() {
     
     facade.facade()
 }
-

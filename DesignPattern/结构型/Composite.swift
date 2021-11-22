@@ -20,7 +20,7 @@ protocol FileNode {
 }
 
 extension FileNode {
-    func getPath () -> String {
+    func getPath() -> String {
         return path
     }
 }
@@ -73,6 +73,6 @@ class Directory: FileNode {
     }
     
     func deleteNode(_ path: String) {
-        //...
+        // ...
     }
 }

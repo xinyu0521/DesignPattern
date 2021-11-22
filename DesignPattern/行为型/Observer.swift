@@ -19,21 +19,20 @@ protocol Observer {
 }
 
 class Message {
-    //...
+    // ...
 }
 
 class ConcreteSubject: Subject {
-    
     private var observers: [Observer] = []
-    
+
     func regiserObserver(_ observer: Observer) {
         observers.append(observer)
     }
-    
+
     func removeObserver(_ observer: Observer) {
-        //...
+        // ...
     }
-    
+
     func notifyObserver(_ message: Message) {
         for observer in observers {
             observer.update(message)
@@ -46,4 +45,3 @@ class ConcreteObserver: Observer {
         print(message)
     }
 }
-
