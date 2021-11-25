@@ -27,6 +27,9 @@
 		AFB20960273A4AF80075D7EB /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB2095F273A4AF80075D7EB /* Prototype.swift */; };
 		AFC13F85274B326100369D61 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC13F84274B326100369D61 /* Strategy.swift */; };
 		AFC13F87274B59FD00369D61 /* ChainOfResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC13F86274B59FD00369D61 /* ChainOfResponsibility.swift */; };
+		AFC13F89274CC0C700369D61 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC13F88274CC0C700369D61 /* State.swift */; };
+		AFC13F8B274DC9E900369D61 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC13F8A274DC9E900369D61 /* Iterator.swift */; };
+		AFC13FAA274F1C2700369D61 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC13FA9274F1C2700369D61 /* Visitor.swift */; };
 		AFE7A9512745FECE000ECC30 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE7A9502745FECE000ECC30 /* Proxy.swift */; };
 		AFE7A95327473F74000ECC30 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE7A95227473F74000ECC30 /* Bridge.swift */; };
 		AFE7A95527477806000ECC30 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE7A95427477806000ECC30 /* Decorator.swift */; };
@@ -75,6 +78,9 @@
 		AFB2095F273A4AF80075D7EB /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		AFC13F84274B326100369D61 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
 		AFC13F86274B59FD00369D61 /* ChainOfResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibility.swift; sourceTree = "<group>"; };
+		AFC13F88274CC0C700369D61 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		AFC13F8A274DC9E900369D61 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		AFC13FA9274F1C2700369D61 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
 		AFE7A9502745FECE000ECC30 /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
 		AFE7A95227473F74000ECC30 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		AFE7A95427477806000ECC30 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
@@ -113,6 +119,9 @@
 				449D0B42274A6C090089F25A /* TemplateMethod.swift */,
 				AFC13F84274B326100369D61 /* Strategy.swift */,
 				AFC13F86274B59FD00369D61 /* ChainOfResponsibility.swift */,
+				AFC13F88274CC0C700369D61 /* State.swift */,
+				AFC13F8A274DC9E900369D61 /* Iterator.swift */,
+				AFC13FA9274F1C2700369D61 /* Visitor.swift */,
 			);
 			path = "行为型";
 			sourceTree = "<group>";
@@ -330,6 +339,7 @@
 				AFE7A9512745FECE000ECC30 /* Proxy.swift in Sources */,
 				449D0B41274A60010089F25A /* Observer.swift in Sources */,
 				AFE7A95527477806000ECC30 /* Decorator.swift in Sources */,
+				AFC13F8B274DC9E900369D61 /* Iterator.swift in Sources */,
 				AF45B79E2734D571001C740E /* ViewController.swift in Sources */,
 				449D0B3C274A15330089F25A /* Flyweight.swift in Sources */,
 				449D0B3827489EFE0089F25A /* Facade.swift in Sources */,
@@ -337,7 +347,9 @@
 				AFB20960273A4AF80075D7EB /* Prototype.swift in Sources */,
 				AFC13F87274B59FD00369D61 /* ChainOfResponsibility.swift in Sources */,
 				449D0B3A2748AA190089F25A /* Composite.swift in Sources */,
+				AFC13F89274CC0C700369D61 /* State.swift in Sources */,
 				AF45B79A2734D571001C740E /* AppDelegate.swift in Sources */,
+				AFC13FAA274F1C2700369D61 /* Visitor.swift in Sources */,
 				AFE7A957274791C2000ECC30 /* Adapter.swift in Sources */,
 				AFE7A95327473F74000ECC30 /* Bridge.swift in Sources */,
 				449D0B43274A6C090089F25A /* TemplateMethod.swift in Sources */,
