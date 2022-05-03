@@ -18,7 +18,7 @@
 /// 3.考虑是否支持延迟加载；
 /// 4.考虑 getInstance() 性能是否高（是否加锁）
 
-// 在swift种默认是懒加载线程安全的(参考下面汇编代码41行 call swift_once)
+// 在swift种默认是懒加载线程安全的(参考下面汇编代码41行 call swift_once 可以看到OC种实现单例常用的dispatch_once)
 class Singleton {
     static let sharedInstance = Singleton()
     private init() {}
