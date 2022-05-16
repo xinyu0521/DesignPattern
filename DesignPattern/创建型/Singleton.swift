@@ -42,7 +42,6 @@ class Singleton {
      0x10b4b72b1 <+49>: jmp    0x10b4b7295               ; <+21> at Singleton.swift:23:16
  */
 
-
 /*
  libswiftCore.dylib`swift_once:
  ->  0x7fff308845e0 <+0>:  pushq  %rbp

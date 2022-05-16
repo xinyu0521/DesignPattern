@@ -5,8 +5,6 @@
 //  Created by 张欣宇 on 2021/11/21.
 //
 
-import UIKit
-
 /// 享元模式（Flyweight Design Pattern）
 /// 共享对象节省内存
 
